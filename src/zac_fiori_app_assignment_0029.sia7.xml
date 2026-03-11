@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA7" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA7>
+    <METADATA>
+     <NAME>ZAC_FIORI_APP_ASSIGNMENT_0029</NAME>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </METADATA>
+    <CONTENT>
+     <BU_CATALOG_APP_ID>ZAC_FIORI_APP_ASSIGNMENT_0029</BU_CATALOG_APP_ID>
+     <BU_CATALOG_ID>ZAC_FIORI_APP_ASSIGNMENT</BU_CATALOG_ID>
+     <APP_ID>ZGE288635_EXT</APP_ID>
+     <ROLE_CHANGE>A</ROLE_CHANGE>
+     <CATALOG_CHANGE>A</CATALOG_CHANGE>
+     <GROUP_CHANGE>A</GROUP_CHANGE>
+     <CHIP_ID>X-SAP-UI2-PAGE:X-SAP-UI2-CATALOGPAGE:ZAC_FIORI_APP_ASSIGNMENT:6RW8MK4CBO1WOT0B7S5IRUOJD</CHIP_ID>
+     <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    </CONTENT>
+   </SIA7>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,41 @@
+@Metadata.allowExtensions: true
+@EndUserText.label: 'Online Shop'
+@AccessControl.authorizationCheck: #CHECK
+@Search.searchable: true
+@ObjectModel.semanticKey: [ 'OrderId' ]
+define root view entity ZC_GE288635
+provider contract transactional_query
+as projection on ZR_GE288635
+{
+  key OrderUUID,
+  @Search.defaultSearchElement: true
+  @Search.fuzzinessThreshold: 0.90
+  OrderID,
+  @Search.defaultSearchElement: true
+  @Search.fuzzinessThreshold: 0.90
+  @Consumption.valueHelpDefinition: [ {
+  entity.name: 'ZI_AC_VH_PRODUCTS',
+  entity.element: 'Product',
+  useForValidation: true
+  } ]
+  OrderedItem,
+  OrderQuantity,
+  RequestedDeliveryDate,
+  TotalPrice,
+  @Semantics.currencyCode: true
+  Currency,
+  OverallStatus,
+  SalesOrderStatus,
+  @Search.defaultSearchElement: true
+  @Search.fuzzinessThreshold: 0.90
+  Salesorder,
+  BgpfStatus,
+  BgpgProcessName,
+  ManageSalesOrderUrl,
+  Notes,
+  CreatedBy,
+  CreatedAt,
+  LastChangedBy,
+  LastChangedAt,
+  LocalLastChangedAt
+  }

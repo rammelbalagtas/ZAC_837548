@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "ShoppingCart App GE288635",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "ShoppingCart App GE288635"
+  },
+  "ui5AppDetails": {
+    "appId": "ge288635"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_1664BC18B0F8C8472E717ECC2B1D1CA34F7DAA7A_TM",
+    "semanticObject": "zGE288635",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_1664BC18B0F8C8472E717ECC2B1D1CA34F7DAA7A_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "ShoppingCart App GE288635"
+      }
+    }
+  ]
+}
