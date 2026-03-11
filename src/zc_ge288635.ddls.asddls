@@ -14,7 +14,7 @@ as projection on ZR_GE288635
   @Search.defaultSearchElement: true
   @Search.fuzzinessThreshold: 0.90
   @Consumption.valueHelpDefinition: [ {
-  entity.name: 'ZI_AC_VH_PRODUCTS',
+  entity.name: 'ZI_GE288635_VH_PRODUCTS',
   entity.element: 'Product',
   useForValidation: true
   } ]

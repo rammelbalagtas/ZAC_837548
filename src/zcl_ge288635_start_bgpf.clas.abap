@@ -51,7 +51,7 @@ CLASS zcl_GE288635_start_bgpf DEFINITION
      "implement if uncontrolled behavior is needed, e.g. commit work statements
 
      "There is already a global class **zcl_ac_salesorder_api** available
-     DATA start_sales_order_create TYPE REF TO zcl_ac_salesorder_api.
+     DATA start_sales_order_create TYPE REF TO zcl_GE288635_so_api.
      "In one the next steps you will create your own implementation
      "DATA start_sales_order_create TYPE REF TO zcl_GE288635_so_api.
 
@@ -72,10 +72,10 @@ CLASS zcl_GE288635_start_bgpf DEFINITION
      IF entities IS NOT INITIAL.
        LOOP AT entities INTO DATA(entity).
          "There is already a global class **zcl_ac_salesorder_api** available
-         start_sales_order_create = NEW zcl_ac_salesorder_api(
+*         start_sales_order_create = NEW zcl_ac_salesorder_api(
 
          "In one the next steps you will create your own implementation
-         "start_sales_order_create = NEW zcl_GE288635_so_api(
+         start_sales_order_create = NEW zcl_GE288635_so_api(
                                          i_material = entity-OrderedItem
                                          i_purchase_order_by_customer = CONV #( sy-uname )
                                          i_quantity = entity-OrderQuantity

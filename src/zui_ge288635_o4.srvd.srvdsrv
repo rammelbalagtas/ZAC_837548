@@ -8,6 +8,7 @@
 }
 define service ZUI_GE288635_O4
   provider contracts odata_v4_ui {
-  expose ZC_GE288635       as ShoppingCart;
+  expose ZC_GE288635             as ShoppingCart;
   expose ZI_AC_VH_PRODUCTS;
+  expose ZI_GE288635_VH_PRODUCTS;
 }
